@@ -21,9 +21,9 @@ def valid_move?(board, index)
   end
 
 
-if position_taken?(board,index)== true
-  return false
-else
-  return true
-end
+  if (position_taken?(board,index))== true && (on_board(index))== false
+    return false
+  else
+    return true
+  end
 end
