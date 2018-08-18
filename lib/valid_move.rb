@@ -24,4 +24,5 @@ def on_board(number)
     return true
   else
     return false
+  end
 end
