@@ -17,3 +17,11 @@ def position_taken?(board,index)
   end
 
 end
+
+
+def on_board(number)
+  if number.between?(0,8)== true
+    return true
+  else
+    return false
+end
